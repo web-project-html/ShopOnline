@@ -1,5 +1,7 @@
 var click_rate = 0;
 
+console.log("hello world")
+
 function clicked(a){
 	if (click_rate%2 == 0) {
 	a.src = "https://cdn.iconscout.com/icon/free/png-256/close-3114451-2598229.png";
