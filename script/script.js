@@ -1,6 +1,6 @@
 var click_rate = 0;
 
-console.log("hello world")
+alert("hello it is not working properly")
 
 function clicked(a){
 	if (click_rate%2 == 0) {
