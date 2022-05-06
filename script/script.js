@@ -1,5 +1,5 @@
 var click_rate = 0;
-
+var b=0;
 
 function clicked(a){
 	if (click_rate%2 == 0) {
