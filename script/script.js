@@ -1,6 +1,5 @@
 var click_rate = 0;
 
-alert("welcome to the site !! ")
 
 function clicked(a){
 	if (click_rate%2 == 0) {
