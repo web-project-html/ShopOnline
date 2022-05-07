@@ -6,6 +6,10 @@ h1{
     margin: 0;
     padding:0;
 }
+
+body{
+   width:100vw;
+}
 #box{
       background-color: black;
       height: 30px;width: 100%;
