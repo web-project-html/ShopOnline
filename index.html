@@ -6,60 +6,64 @@
 	<title> ShopOnline.com </title>
 
 	<link rel="stylesheet" type="text/css" href="style/design.css">
-	<link rel="stylesheet" type="text/css" href="newdesign.css">
+
 	<style>
+		body{
+			height: 1500px; width: 99%;
+		}
 		#Header_search{
 			border: 1px solid black;
 			width: 250px;
 		}
+		#Footer_homeimage{
+			position: absolute;
+		    top: 1450px;
+		}
 		#Footer_home{
 			position: absolute;
-			bottom: 5px;
-		}
-		#footer_home_image{
-			position: absolute;
-			bottom: 35px;
+			top: 1470px;
 		}
 		#Footer_userimage{
 			position: absolute;
-			bottom: 35px; left: 100px;
+			top: 1450px; left: 150px;
 		}
 		#Footer_user{
 			position: absolute;
-			bottom: -15px; left: 100px;
+			top: 1472px; left: 150px;
 		}
 		#Footer_orderimage{
 			position: absolute;
-			bottom: 35px; left: 200px;
+			top: 1450px; left: 300px;
 		}
 		#Footer_order{
 			position: absolute;
-			bottom: -15px; left: 200px;
+			top: 1475px; left: 300px;
 		}
 		#Footer_cashbackimage{
 			position: absolute;
-			bottom: 35px; left: 300px;
+			top: 1450px; left: 460px;
 		}
 		#Footer_cashback{
 			position: absolute;
-			bottom: -15px; left: 300px;
+			top: 1475px; left: 450px;
 		}
 		#Footer_walletimage{
 			position: absolute;
-			bottom: 35px; left: 390px;
+			top: 1450px; left: 600px;
 		}
 		#Footer_wallet{
 			position: absolute;
-			bottom: -5px; left: 400px;
+			top: 1475px; left: 600px;
 		}
 	</style>
 <script type="text/javascript" src="script/script.js"></script>
 </head>
 <body>
+
 						<center><h1> Shopping Center </h1></center>
-<div id="box">
+<div id="box"></div>
 <div id="Header_menu">
-	<img src="https://flyclipart.com/thumb2/menu-three-horizontal-lines-symbol-868496.png" id="menu_image" onclick="clicked(this)" height="25px" width="30px"></img>
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEdLuNMZ3VPeXBl0uv_t6xVXh2MIw_mGEfYA&usqp=CAU" id="menu_image" onclick="clicked(this)" height="35px" width="35px"></img>
 </div>
 
 <input id="Header_search" type="text" name="SEARCH" placeholder="Search here for any item">
@@ -67,40 +71,28 @@
 <img src="https://www.iconpacks.net/icons/1/free-microphone-icon-342-thumb.png" height="25px" width="25px"id="Header_mice"></img>
 
 
-<a id="Header_content" href="">Content Us</a>
-<a id="Header_cart" href="">CART</a>
+<a id="Header_content" href="">Contact Us</a>
+<a id="Header_cart" href="">Add To cart</a>
 <a id="Header_login" href="">Login</a>  
 <a id="Header_SignUP" href="">Sign UP</a>
 <a id="Header_location" href="https://www.google.com/maps/@22.4168315,71.319437,7z">
-	<img src="https://icon-library.com/images/map-png-icon/map-png-icon-29.jpg" height="30px" width="30px">Deliver to This Address</img>
-</a></div>
-
+	<img src="https://icon-library.com/images/map-png-icon/map-png-icon-29.jpg" height="25px" width="30px"></img>
+</a>
+<a href="https://www.google.com/maps/@22.4168315,71.319437,7z">
+<p id="Header_line">Deliver to this Address </p></a>
 <!-- header complete -->
 
 <!--FOOTER START FROM HERE-->
+<a href="">
+	<img src="https://cdn-icons-png.flaticon.com/512/74/74807.png" height="30px" width="30px" id="Footer_homeimage"><p id="Footer_home">HOME</p></a>
 
-<div id="Footer_part">
-    <div id="footer_i1">
-	<a href="">
-	<img class="Footer_images" src="https://cdn-icons-png.flaticon.com/512/74/74807.png" height="34px" width="34px" id="footer_home_image">HOME</a>
-	</div>
-	
-	<div id="footer_i2">
-	<a href=""><img class="Footer_images"  src="https://www.kindpng.com/picc/m/78-785827_user-profile-avatar-login-account-male-user-icon.png" height="34px" width="34px" id="Footer_userimage">User Account</a>
-	</div>
+	<a href=""><img src="https://www.kindpng.com/picc/m/78-785827_user-profile-avatar-login-account-male-user-icon.png" height="35px" width="35px" id="Footer_userimage"><p id="Footer_user">user<br>account</p></a>
 
-	<div id="footer_i3">
-	<a href=""><img class="Footer_images"  src="https://e7.pngegg.com/pngimages/833/426/png-clipart-shopping-cart-icon-shopping-cart-black-design.png" height="34px" width="34px" id="Footer_orderimage"> Order Track </a>
-	</div>
+	<a href=""><img src="https://e7.pngegg.com/pngimages/833/426/png-clipart-shopping-cart-icon-shopping-cart-black-design.png" height="35px" width="35px" id="Footer_orderimage"><p id="Footer_order">order<br>truck</p></a>
 
-	<div id="footer_i4">
-	<a href=""><img class="Footer_images"  src="https://www.pngall.com/wp-content/uploads/2/Cashback-Transparent.png" height="34px" width="34px" id="Footer_cashbackimage">Cashback Offer </a>
-	</div>
+	<a href=""><img src="https://www.pngall.com/wp-content/uploads/2/Cashback-Transparent.png" height="40px" width="40px" id="Footer_cashbackimage"><p id="Footer_cashback">cashback<br>offer</p></a>
 
-	<div id="footer_i5">
-	<a href=""><img class="Footer_images"  src="https://flyclipart.com/thumb2/wallet-quick-payment-in-china-china-chinese-icon-png-and-vector-458685.png" height="34px" width="34px" id="Footer_walletimage">Wallet</a>
-	</div>
-</div>
-	<!--FOOTER COMPLETED-->
+	<a href=""><img src="https://flyclipart.com/thumb2/wallet-quick-payment-in-china-china-chinese-icon-png-and-vector-458685.png" height="40px" width="60px" id="Footer_walletimage"><p id="Footer_wallet">Wallet</p></a>
+<!--FOOTER COMPLETED-->
 </body>
 </html>
