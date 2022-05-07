@@ -1,54 +1,58 @@
 h1{
      color: green;
 }
-
-
-#Header_A1{
+#box{
+      background-color: black;
+      height: 30px;width: 865px;
+      position: absolute;
+      left: 20px; top: 80px;
+}
+#Header_3line_icon{
 	   background-color: greenyellow;
 	   height: 35px;
 	   width: 865px;
 }
-#Header_A2{
+#Header_search{
     position: absolute;
     top: 87px;left: 60px;
    
   }
-#Header_A3{
+#Header_mice{
 
    position: absolute;
    top: 85px; left: 325px;
 }
-#Header_A4{
+#Header_content{
     position: absolute;
     top: 88px; left: 360px;
     color: blueviolet;
 }
-#Header_A5{
+#Header_cart{
     position: absolute;
     top: 88px; left: 440px;
     color:blueviolet;
 }
-#Header_A6{
+#Header_login{
     position: absolute;
     top: 88px; left: 490px;
     color: blueviolet;
 }
-#Header_A7{
+#Header_signUP{
     position: absolute;
     top: 88px; left: 540px;
     color: blueviolet;
 }
-#Header_A8{
+#Header_location{
     position: absolute;
     top: 88px; left: 630px;
     color: blueviolet;
 }
-#Header_A9{
+#Header_location_image{
     position: absolute;
     top: 85px; left: 600px;
     color: blueviolet;
 }
-#Header_A10{
+#Header_search_icon{
     position: absolute;
     top:87px; left: 290px;
     background-blend-mode: darken;
