@@ -57,3 +57,7 @@ h1{
     top:87px; left: 290px;
     background-blend-mode: darken;
 }
+
+a{
+    text-decoration: none;
+}
