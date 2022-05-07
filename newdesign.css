@@ -9,4 +9,7 @@ body{
 #Footer_part{
     position:absolute;
     bottom:5px; 
+    height:30px;
+    width:99vw;
+    border:1px solid black;
 }
