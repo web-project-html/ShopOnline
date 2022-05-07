@@ -3,9 +3,9 @@ h1{
 }
 #box{
       background-color: black;
-      height: 30px;width: 950px;
+      height: 30px;width: 100%;
       position: absolute;
-      left: 20px; top: 200px;
+      left: 20px; top: 120px;
 }
 #Header_3line_icon{
 	   background-color: greenyellow;
