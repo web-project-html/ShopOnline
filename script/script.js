@@ -1,6 +1,10 @@
 var click_rate = 0;
 
+window.onload = function loading(){
 
+	alert("Welcome to the site !")
+	
+}
 
 function clicked(a){
 	if (click_rate%2 == 0) {
