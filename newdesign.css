@@ -1,24 +1,97 @@
-body{
-    height:auto;
-    width:100vw;
+h1{
+     
+     color: green;
+     animation-name: color;
+     animation-duration: 3s;
+     animation-iteration-count: infinite;
 }
-*{
-    padding:0;
-    margin:0;
-}
-#Footer_part{
-    position:absolute;
-    bottom:5px; 
-    height:30px;
-    width:99vw;
-    border:1px solid black;
-}
-.Footer_images{
-    height:34px;
-    width:34px;
-    border-radius:50%;
-    outline: 1px solid black;
-    outline-offset: 2px;
-    display: inline-block;
+@keyframes color{
+    0%{
+        color: green;
+    }
+    40%{
+        color: red;
+    }
+    100%{
+        color: purple;
+    }
 }
 
+#box{
+      background-color: greenyellow;
+      height: 37px;width: 100%;
+      position: absolute;
+      left: 5px; top: 100px;
+      padding-top: 10px;
+      box-sizing: border-box;
+}
+#Header_menu{
+	   position: absolute;
+       top: 100px; 
+}
+#Header_search{
+    position: absolute;
+    top: 105px;left: 60px;
+    height: 20px;
+  }
+#Header_mice{
+
+   position: absolute;
+   top: 105px; left: 325px;
+   color: red;
+   color: black;
+}
+#Header_content{
+    position: absolute;
+    top: 105px; left: 820px;
+    color: blueviolet;
+    font-size: 20px;
+    color: black;
+}
+#Header_cart{
+    position: absolute;
+    top: 105px; left: 650px;
+    color:blueviolet;
+    font-size: 20px;
+    color: black;
+}
+#Header_login{
+    position: absolute;
+    top: 105px; left: 450px;
+    color: blueviolet;
+    font-size: 20px;
+    color: black;
+}
+#Header_SignUP{
+    position: absolute;
+    top: 105px; left: 535px;
+    color: blueviolet;
+    font-size: 20px;
+    color: black;
+}
+#Header_location{
+    position: absolute;
+    top: 105px; left: 970px;
+    color: blueviolet;
+}
+#Header_line{
+      position: absolute;
+      top: 85px; left: 1003px;
+      font-size: 20px;
+      color: black;
+}
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+   font-family: cursive;
+}
+#Header_location_image{
+    position: absolute;
+    top: 85px; left: 600px;
+    color: blueviolet;
+}
+#Header_search_icon{
+    position: absolute;
+    top:87px; left: 290px;
+    background-blend-mode: darken;
+}
